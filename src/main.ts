@@ -2,7 +2,9 @@ import "./style.css";
 import typescriptLogo from "./typescript.svg";
 import viteLogo from "/vite.svg";
 import { setupCounter } from "./counter.ts";
-import "./tutorial.ts";
+// import "./tutorial.ts";
+// import "./typeGuard.ts";
+// import "./fetchData.ts";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
@@ -12,6 +14,10 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
     <a href="https://www.typescriptlang.org/" target="_blank">
       <img src="${typescriptLogo}" class="logo vanilla" alt="TypeScript logo" />
     </a>
+
+    <a href="/tasks.html" target="_blank">Tasks
+    </a>
+
     <h1>Vite + TypeScript</h1>
     <div class="card">
       <button id="counter" type="button"></button>
